@@ -6,6 +6,13 @@ the dictionary as a keys value. If not, it deletes it from the list.
 
 Author: Evert Ball
 Date: July 7th, 2020
+
+Gary Jackson's solution:
+    sampleDict = {"Zach":47, "Emma":69, "Kelly":76, "Jason":97}
+    rollNumber = [47, 64, 69, 37, 76, 83, 95, 97]
+    rollNumber = list(filter(lambda i: i in sampleDict.values(), rollNumber))
+    print(rollNumber)
+
 """
 
 import math

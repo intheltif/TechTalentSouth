@@ -16,7 +16,28 @@ import re
 
 def main():
     """ The main entry point into the program. """
-    #TODO Input validation
+    # TODO: This can be done better. Change it.
+    userInput = input("Please enter a password: ")
+    flag = 0
+    if len(userInput) <= 6 or len(userInput) >= 16:
+        flag = -1
+    elif not re.search("[a-z]", userInput):
+        flag = -1
+    elif not re.search("[A-Z]", userInput):
+        flag = -1
+    elif not re.search("[0-9]", userInput):
+        flag = -1
+    elif not re.search("[$#@]", userInput):
+        flag = -1
+    elif re.search("\s", userInput):
+        flag = -1
+    else:
+        flag = 0
+        print("Your password is valid!")
+
+    if flag == -1: 
+        print("Not a valid password...")
+
 
 if __name__ == "__main__":
     main()

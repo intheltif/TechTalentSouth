@@ -1,5 +1,7 @@
 """
-Guesses a number between 1 and 9 given by the user.
+Exercise 1 of Module 3.
+
+The program guesses a number between 1 and 9 given by the user.
 
 Author: Evert Ball
 Date: July 10th, 2020
