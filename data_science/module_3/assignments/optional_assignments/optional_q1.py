@@ -1,4 +1,3 @@
-
 """
 Optional Exercise 1 of Module 3.
 
