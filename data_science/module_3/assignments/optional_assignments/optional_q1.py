@@ -6,8 +6,6 @@ Reverses a string.
 Author: Evert Ball
 Date: July 10th, 2020
 """
-import random
-
 def main():
     """ The main entry point into the program """
 

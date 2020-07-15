@@ -6,7 +6,6 @@ Multipliese all numbers in a list
 Author: Evert Ball
 Date: July 10th, 2020
 """
-import random
 
 def main():
     """ The main entry point into the program """
