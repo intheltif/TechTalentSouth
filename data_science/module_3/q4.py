@@ -21,7 +21,7 @@ def main():
     repeat = True
 
     # Continually ask for user input until it is valid.
-    # The only valid input is integers.
+    # The only valid input is positive integers.
     while repeat:
         try:
             numClasses = int(input("How many classes are held? >> "))
