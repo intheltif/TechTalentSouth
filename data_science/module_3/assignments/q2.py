@@ -16,7 +16,6 @@ import re
 
 def main():
     """ The main entry point into the program. """
-    # TODO: This can be done better. Change it.
     userInput = input("Please enter a password: ")
     flag = 0
     if len(userInput) <= 6 or len(userInput) >= 16:

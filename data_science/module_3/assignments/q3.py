@@ -1,7 +1,8 @@
 """
 Exercise 3 of Module 3.
 
-Gets the ages of 3 people and determines who is oldest and youngest.
+Asks the user for the ages of 3 people and determines who is oldest and 
+who is the youngest.
 
 Author: Evert Ball
 Date: July 14th, 2020
