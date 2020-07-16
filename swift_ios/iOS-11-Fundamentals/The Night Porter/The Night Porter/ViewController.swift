@@ -6,6 +6,9 @@
 //  Copyright © 2020 Evert. All rights reserved.
 //
 
+// Here, we lnk all the "stuff" Apple have provided to support
+// building a typical iOS application.
+// (And not just the user interface "stuff", but infrastructure as well)
 import UIKit
 
 class ViewController: UIViewController {
