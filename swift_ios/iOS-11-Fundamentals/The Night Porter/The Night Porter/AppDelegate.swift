@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  The Night Porter
 //
-//  Created by Owner on 7/15/20.
+//  Created by Evert Ball on 7/15/20.
 //  Copyright © 2020 Evert. All rights reserved.
 //
 

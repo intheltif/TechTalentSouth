@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  The Night Porter
 //
-//  Created by Owner on 7/15/20.
+//  Created by Evert Ball on 7/15/20.
 //  Copyright © 2020 Evert. All rights reserved.
 //
 
@@ -15,6 +15,20 @@ class ViewController: UIViewController {
 
     @IBAction func enableDarkMode(_ sender: Any) {
         view.backgroundColor = UIColor.darkGray
+        
+        // TODO: Change the text color of every label
+        
+        // get everything contained in the top-level view
+        let everything = view.subviews
+        
+        for eachView in everything {
+            // is it a label?
+            if eachView is UILabel {
+                // downcast as UILabel
+                let currentLabel = eachView as! UILabel
+                currentLabel.textColor = UIColor.lightGray
+            }
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
