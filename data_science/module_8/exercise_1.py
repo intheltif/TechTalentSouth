@@ -5,6 +5,10 @@ Exemplifies how class inheritance works in Python 3 by using a Student class
 that inherits from a Person class to calculate the student's grades and print
 the student's information to STDOUT.
 
+NOTE:
+    Comments in this file are verbose. I'm attempting to learn how to properly
+    comment python code according to Google's style guide and the PEP.
+
 Author: Evert Ball
 Date: 07/25/2020
 """
